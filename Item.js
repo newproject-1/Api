@@ -8,7 +8,7 @@ const ItemSchema = new Schema ({
         required: true 
     },
     date: {
-        type: Data,
+        type: Date,
         default: Date.now
     }
 });
